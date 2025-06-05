@@ -3,34 +3,35 @@ requires = ["setuptools>=68.0", "wheel", "cython>=3.0.11"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "python-box"
+name = "python-box-notify"
 version = "7.3.2"
 description = "Advanced Python dictionaries with dot notation access"
 readme = "README.rst"
 license = "MIT"
 authors = [
     {name = "Chris Griffith", email = "chris@cdgriffith.com"},
+    {name = "Chris Goddard", email = "chris@goodkiwi.llc"},
 ]
 maintainers = [
     {name = "Chris Griffith", email = "chris@cdgriffith.com"},
 ]
-keywords = ["box", "dict", "dictionary", "dot", "notation", "access", "yaml", "json", "toml", "msgpack"]
+keywords = []
 classifiers = [
-    "Programming Language :: Python",
-    "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.9",
-    "Programming Language :: Python :: 3.10",
-    "Programming Language :: Python :: 3.11",
-    "Programming Language :: Python :: 3.12",
-    "Programming Language :: Python :: 3.13",
-    "Programming Language :: Python :: Implementation :: CPython",
-    "Development Status :: 5 - Production/Stable",
-    "Natural Language :: English",
-    "Intended Audience :: Developers",
-    "Operating System :: OS Independent",
-    "Topic :: Utilities",
-    "Topic :: Software Development",
-    "Topic :: Software Development :: Libraries :: Python Modules",
+    # "Programming Language :: Python",
+    # "Programming Language :: Python :: 3",
+    # "Programming Language :: Python :: 3.9",
+    # "Programming Language :: Python :: 3.10",
+    # "Programming Language :: Python :: 3.11",
+    # "Programming Language :: Python :: 3.12",
+    # "Programming Language :: Python :: 3.13",
+    # "Programming Language :: Python :: Implementation :: CPython",
+    # "Development Status :: 5 - Production/Stable",
+    # "Natural Language :: English",
+    # "Intended Audience :: Developers",
+    # "Operating System :: OS Independent",
+    # "Topic :: Utilities",
+    # "Topic :: Software Development",
+    # "Topic :: Software Development :: Libraries :: Python Modules",
 ]
 requires-python = ">=3.9"
 dependencies = []
@@ -45,10 +46,8 @@ toml = ["toml"]
 msgpack = ["msgpack"]
 
 [project.urls]
-Homepage = "https://github.com/cdgriffith/Box"
-Documentation = "https://github.com/cdgriffith/Box/wiki"
-Repository = "https://github.com/cdgriffith/Box"
-"Bug Tracker" = "https://github.com/cdgriffith/Box/issues"
+Homepage = "https://github.com/goodkiwi/Box"
+Repository = "https://github.com/goodkiwi/Box"
 
 [tool.uv]
 dev-dependencies = [

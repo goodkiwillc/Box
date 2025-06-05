@@ -1,7 +1,5 @@
 |BuildStatus| |License|
 
-|BoxImage|
-
 **Fork Notice**
 ===============
 
