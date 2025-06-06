@@ -498,9 +498,13 @@ wheels = [
 ]
 
 [[package]]
-name = "python-box"
-version = "7.3.2"
+name = "python-box-notify"
+version = "1.0.0"
 source = { editable = "." }
+dependencies = [
+    { name = "msgpack" },
+    { name = "tomli-w" },
+]
 
 [package.optional-dependencies]
 all = [
@@ -546,6 +550,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
+    { name = "msgpack", specifier = ">=1.1.0" },
     { name = "msgpack", marker = "extra == 'all'" },
     { name = "msgpack", marker = "extra == 'msgpack'" },
     { name = "pyyaml", marker = "extra == 'pyyaml'" },
@@ -555,6 +560,7 @@ requires-dist = [
     { name = "toml", marker = "extra == 'all'" },
     { name = "toml", marker = "extra == 'toml'" },
     { name = "tomli", marker = "python_full_version < '3.11' and extra == 'tomli'" },
+    { name = "tomli-w", specifier = ">=1.2.0" },
     { name = "tomli-w", marker = "extra == 'tomli'" },
 ]
 provides-extras = ["all", "yaml", "ruamel-yaml", "pyyaml", "tomli", "toml", "msgpack"]
