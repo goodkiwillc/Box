@@ -4,16 +4,16 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "python-box-notify"
-version = "1.0.1"
-description = "Advanced Python dictionaries with dot notation access"
+version = "1.0.2"
+description = "Advanced Python dictionaries with dot notation access (fork with notify support)"
 readme = "README.rst"
 license = "MIT"
 authors = [
-    {name = "Chris Griffith", email = "chris@cdgriffith.com"},
     {name = "Chris Goddard", email = "chris@goodkiwi.llc"},
+    {name = "Chris Griffith", email = "chris@cdgriffith.com"},
 ]
 maintainers = [
-    {name = "Chris Griffith", email = "chris@cdgriffith.com"},
+    {name = "Chris Goddard", email = "chris@goodkiwi.llc"},
 ]
 keywords = []
 classifiers = [
