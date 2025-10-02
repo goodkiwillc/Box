@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "python-box-notify"
-version = "1.0.2"
+version = "1.0.3"
 description = "Advanced Python dictionaries with dot notation access (fork with notify support)"
 readme = "README.rst"
 license = "MIT"
